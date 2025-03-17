@@ -1,0 +1,26 @@
+body {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  #searchButton, #copyButton {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+  }
+  
+  #resultArea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    min-height: 100px;
+  }

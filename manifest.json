@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Search Popup",
+    "version": "1.0",
+    "description": "Search Gemini directly from a popup.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "16gemini.png",
+        "48": "48gemini.png",
+        "128": "128gemini.png"
+      }
+    },
+    "permissions": [
+      "activeTab",
+      "clipboardWrite",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://generativelanguage.googleapis.com/*" 
+    ],
+    "icons": {
+      "16": "16gemini.png",
+      "48": "48gemini.png",
+      "128": "128gemini.png"
+    }
+  }
