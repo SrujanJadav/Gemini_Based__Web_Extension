@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const apiKey = "// Replace with your valid API key "; 
 
       fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyBbP4FzJ7OXAG71TcPO2PWyQ6Stb_cNt6k`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=//replace with your api key`,
         {
           method: "POST",
           headers: {
