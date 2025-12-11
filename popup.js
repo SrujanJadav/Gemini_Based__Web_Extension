@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   searchButton.addEventListener("click", function () {
     const query = searchInput.value;
     if (query) {
-      const apiKey = "AIzaSyBbP4FzJ7OXAG71TcPO2PWyQ6Stb_cNt6k"; // Replace with your valid API key
+      const apiKey = "// Replace with your valid API key "; 
 
       fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyBbP4FzJ7OXAG71TcPO2PWyQ6Stb_cNt6k`,
